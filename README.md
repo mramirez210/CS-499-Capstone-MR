@@ -2,8 +2,7 @@
 
 
 # Code Review
-[(https://youtu.be/SM7scgikd0Y)]
-
+[Here is my code review](https://youtu.be/SM7scgikd0Y)
 ## Enhancement One
 The artifact that I had selected was changed from the original idea that I had going for. This artifact that I had chosen now was from my CS-360 class which was Mobile Development and was created earlier this year of 2026. During that time, I was barely getting back into JavaScript since I had previously learned it from an earlier class and thankfully, learning JavaScript has been a lot of fun and with using Android Studio, it has been a lot easier to create this weight-loss application that was extremely simplistic: no graphics, no fingerprint sensor, and to me, was not visually appealing. All you can do in this application is inputting your goal weight, log weight for the day, and when you reach your goal weight, it will send you a SMS text. Upon learning more about Android development, the SMSPermission was primitive and did not adhere to modern Android standards which were replacing the old SMSPermission and completely re-write to fit.
 	When I began working with SMSPermission.java, I realized that I had the old permission schema from a previous Android version. I believe it was less than Android 12, but I was trying to target Android SDK 34. I was using a legacy requestPermission with ‘ActivityCompat.requestPermissions’ and the override of ‘onRequestPermissionsResult’ which was not ideal for Android SDK 35. I had to look up what the correct way to implement this SMS permission is by adding R.id for the variables. In my case, I would use R.id.tvPermissionStatus to implement the permission for SMS for the user to receive the prompt to either allow or deny the permission; and add the R.id.btnAllowSMS for the button prompt to show up for the user as well. On top of that, I needed to include a way for the user to opt out of the notifications as well in case it becomes too obtrusive for them.
