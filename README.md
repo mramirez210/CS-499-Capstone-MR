@@ -1,5 +1,5 @@
 # mramirez210.github.io
-[Link to my e-portfolio]([url](https://github.com/mramirez210/mramirez210.github.io))
+[Link to my e-portfolio](https://github.com/mramirez210/mramirez210.github.io)
 # CS-499 Capstone
 
 
