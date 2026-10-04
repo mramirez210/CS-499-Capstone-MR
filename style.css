@@ -1,0 +1,35 @@
+h1{
+    display: flex;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h2{
+    font-style: italic;
+    display: flex;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+p{
+    color:white
+}
+a{
+    display: flex;
+    font-style: oblique;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.img{
+    float:left;
+}
+body {
+    background-image: url(background/boliviainteligente-ocrXds6dInw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
