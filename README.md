@@ -2,7 +2,7 @@
 
 
 # Code Review
-[https://youtu.be/SM7scgikd0Y]
+[(https://youtu.be/SM7scgikd0Y)]
 
 ## Enhancement One
 The artifact that I had selected was changed from the original idea that I had going for. This artifact that I had chosen now was from my CS-360 class which was Mobile Development and was created earlier this year of 2026. During that time, I was barely getting back into JavaScript since I had previously learned it from an earlier class and thankfully, learning JavaScript has been a lot of fun and with using Android Studio, it has been a lot easier to create this weight-loss application that was extremely simplistic: no graphics, no fingerprint sensor, and to me, was not visually appealing. All you can do in this application is inputting your goal weight, log weight for the day, and when you reach your goal weight, it will send you a SMS text. Upon learning more about Android development, the SMSPermission was primitive and did not adhere to modern Android standards which were replacing the old SMSPermission and completely re-write to fit.
