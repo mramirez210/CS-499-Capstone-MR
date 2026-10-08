@@ -5,11 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Mitchell Ramirez CS-499 Capstone</title>
-        <link rel="stylesheet" href="./style.css">
+        <!-- <link rel="stylesheet" href="./style.css"> -->
+        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+        
     <body>
         <h1>Mitchell Ramirez CS-499 Capstone</h1>
         <a href="https://youtu.be/SM7scgikd0Y">Click here for my code review!</a>
         <a href="https://github.com/mramirez210/CS360">Click here to see the pre-enahnced app and the ehanced app!</a>
+            <h2>Self-Assessment</h2>
+            <img src="screenshots/Screenshot_20261007_153931.png" alt="pre-enahnced" width="60%" height="60%"/>
+        <p></p>
             <h2> Enhancement One</h2>
         <p>
 The artifact that I had selected was changed from the original idea that I had going for. This artifact that I had chosen now was from my CS-360 class which was Mobile Development and was created earlier this year of 2026. During that time, I was barely getting back into JavaScript since I had previously learned it from an earlier class and thankfully, learning JavaScript has been a lot of fun and with using Android Studio, it has been a lot easier to create this weight-loss application that was extremely simplistic: no graphics, no fingerprint sensor, and to me, was not visually appealing. All you can do in this application is inputting your goal weight, log weight for the day, and when you reach your goal weight, it will send you a SMS text. Upon learning more about Android development, the SMSPermission was primitive and did not adhere to modern Android standards which were replacing the old SMSPermission and completely re-write to fit.
@@ -23,8 +28,8 @@ Within my MainActivity.java as well, I have implemented a way for the user to us
 <p>
 For the enhancements that I have set forth for myself, I believe the only thing that is missing is creating a visualizer or a graph so that the user can see the starting weight and their goal weight with the different weights that they had inputted themselves to keep them engaged for their weight-loss goal. The next enhancements that I will be doing is locking down the database using JBCrypt and improving the visuals and performance of the application.
 </p>
-<img src="screenshots/Screenshot_20261004_145512.png" alt="login screen" style="width: 25%; height: 25%;"/>
-<img src="screenshots/Screenshot_20261004_145519.png" alt="password screen" style="width: 25%; height: 25%"/>
+<img src="screenshots/Screenshot_20261004_145512.png" alt="login screen" width="60%" height="60%"/>
+<img src="screenshots/Screenshot_20261004_145519.png" alt="password screen" width="60%" height="60%"/>
 
 <h2>Enahncement Two</h2>
         <p>
@@ -40,7 +45,7 @@ where I needed to link the buttons together with the android ID’s and make sur
 <p>
 Upon reflecting the enhancement for this artifact that I had chosen of including the Google Login, implementing the fingerprint sensor function, and having a visualizer for the weight changes, this has helped me a lot of thinking for what the user might experience when using my application; instead of using the application for me and being selfish. I believe that having too many ideas can be detrimental for the development of the application where you keep thinking of different things that can be included for it and start to develop a scope creep where it just keeps piling and piling on top. I learned that doing increments and taking ideas from different applications and seeing what are retaining their users helped me strengthen the mindset and doing smaller updates instead of bigger updates will help me to become a better developer and learn to take in criticism thus allowing me to improve myself.
         </p>
-<img src="screenshots/Screenshot_20261004_151623.png" alt="google login" style="width: 25%; height: 25%">
+<img src="screenshots/Screenshot_20261004_151623.png" alt="google login" width="60%" height="60%"/>
             <h2>Enhancement Three</h2>
             <p>
 For this week enhancement, I needed to develop my skill with databases. For my weight-tracking application, I had a .java class file called “DatabaseHelper” which serves are my manager for my application. It uses SQLite to manage the persistent storage while handling the user account management, hashing of passwords, goal setting, and time-series log records. I had selected this artifact to demonstrate the foundational full-stack mobile development concepts, which includes the database architecture, data management, data mapping, and local data persistence. 
@@ -60,6 +65,6 @@ From what I learned from this is the importance of consistency between data seri
 <p>
 The challenges that I had faced was implementing these changes, and making changes to the MainActivity.java, and also implementing the Google Login. I had finally figured out that Google Login and when doing so, it broke the graph where it displays the user’s weight tracked. I fixed that by updating the chart object in WeightTracking.java and when it refreshed the graph, it displayed after implementing List<Entry> chartentries. Also included is updating the “updateChart” object and making sure that the Java code within the chart were updated with the correct weightChart and double-checking within the MainActivity. 
 </p>
-<img src="screenshots/Screenshot_20261004_150654.png" alt="visualizer" style="width: 25%; height: 25%">
+<img src="screenshots/Screenshot_20261004_150654.png" alt="visualizer" width="60%" height="60%"/>
     </body>
 </html>
